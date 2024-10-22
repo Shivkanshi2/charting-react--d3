@@ -1,0 +1,14 @@
+/* src/App.css */
+.candlestick {
+    transition: transform 0.5s ease;
+    transform: perspective(800px) rotateY(10deg);
+  }
+  
+  .candlestick rect {
+    transition: transform 0.5s ease;
+  }
+  
+  .candlestick:hover {
+    transform: perspective(800px) rotateY(0deg) translateY(-10px);
+  }
+  
